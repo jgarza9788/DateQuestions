@@ -64,12 +64,18 @@ h5,p {
 
 .carousel-indicators {
   margin: auto;
-  width: 100%;
+  width: 90%;
 
+  padding-bottom: 100px;
 
+  
 }
+
 
 .carousel-indicators [data-bs-target] {
   margin: 0;
   padding: 0;
+  height: 10px;
+
 }
+
