@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+body {
+  background-color: #383838;
+  height: 100vh;
+  width: 100vw;
+  /* font-family: 'Cookie', cursive; */
+  overflow: hidden;
+}
+
+h5,p {
+  color: #d9d9d9
+}
+
+
+.card-container {
+  /* width: calc(100% - 4rem); */
+  /* height: calc(100% - 4rem); */
+  /* margin: 1rem; */
+  width:100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+
+.carousel-caption {
+  all: unset;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.carousel-inner{
+  overflow: visible;
+  
+}
+
+.carousel-item{
+  transition:all 1s ease-in-out;
+
+  opacity: 0;
+  scale: 0.75;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
+  padding: 20px; 
+}
+
+.carousel-item.active{
+  transition:all 1s ease-in-out;
+
+  opacity: 1;
+  scale: 1;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
+  padding: 20px; 
+}
+
+.carousel-control-prev {
+  /* left: -7% */
+}
+
+.carousel-control-next {
+  /* right: -3% */
+}
+
+.carousel-indicators {
+  margin: auto;
+  width: 100%;
+
+
+}
+
+.carousel-indicators [data-bs-target] {
+  margin: 0;
+  padding: 0;
+}
